@@ -1,0 +1,11 @@
+<h1>API Gateway working!</h1>
+<br />
+<h2>Messages from different microservices: </h2>
+
+<p></p>
+
+{{! Messages from microservices }}
+
+{{#each responses}}
+  <p><b>{{this.url}}</b> - {{this.response}}</p>
+{{/each}}
